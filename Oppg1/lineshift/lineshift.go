@@ -10,7 +10,6 @@ import (
 
 func FileToByteslice(filename string) []byte {
 
-	// Open file for reading
 	file, err := os.Open(filename)
 
 	if err != nil {
@@ -22,14 +21,9 @@ func FileToByteslice(filename string) []byte {
 	}
 	size_of_slice := finfo.Size()
 
-	// The file.Read() function can read a
-	// tiny file into a large byte slice,
-	// but io.ReadFull() will return an
-	// error if the file is smaller than
-	// the byte slice
 	byteSlice := make([]byte, size_of_slice)
 
-	lineBreak := ([]byte("\x0A"))
+	carriageReturn := ([]byte("\x0D"))
 
 	_, err = io.ReadFull(file, byteSlice)
 	if err != nil {
@@ -37,6 +31,6 @@ func FileToByteslice(filename string) []byte {
 	}
 	fmt.Printf("% X %c", byteSlice, byteSlice)
 	fmt.Println()
-	fmt.Println("Det er", bytes.Count(byteSlice, lineBreak), "linjeskift.")
+	fmt.Println("Det er", bytes.Count(byteSlice, carriageReturn), "Carriage returns.")
 	return byteSlice
 }
