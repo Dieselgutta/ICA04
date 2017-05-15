@@ -58,11 +58,11 @@ func main() {
 	}
 
 	if mode&os.ModeCharDevice != os.ModeCharDevice {
-		fmt.Println("File is a char device file")
-		fmt.Println("File is not a block device file")
+		fmt.Println("File is a not char device file")
+		fmt.Println("File is a block device file")
 	} else {
-		fmt.Println("File is not a char device file")
-		fmt.Println("FIle is a block device file")
+		fmt.Println("File is a char device file")
+		fmt.Println("FIle is not a block device file")
 	}
 
 	fmt.Println("Is a directory? : ", file.IsDir())
