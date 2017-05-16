@@ -13,7 +13,7 @@ I windows brukes 0D 0A for å bryte linjen, mens Mac/Unix brukes kun 0A for å b
 
 # b)
 
-![Bilde1](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18554610_10158500805715411_2066292245_n.png?oh=b72c3ca9e68f3940fe92ab5aa6c410ad&oe=591D37AF)
+![Bilde1](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18518521_10158500805705411_1438605580_n.png?oh=5c6eb8280f2f5469352af141924ddb3b&oe=591E34A2)
 
 bilde 1: Vi ser at en tekstfil laget i Windows har Carriage return.
 
@@ -54,8 +54,10 @@ Vi ser her at vi fikk veldig forskjellige resultater. Et av dem var at “loop0�
 Eventuelle forskjeller vi ser her fra det forrige er at størrelsen er større (10 mot 6). Dette er pga. måten windows bruker linjeskift. Bortsett fra størrelsen er alt likt som i ubuntu. 
 
 
-Oppgave 3
-a)
+# Oppgave 3
+
+# a)
+
 De forskjellige kategoriene innen metoder for å arbeide med filer er:
 Grunnleggende Operasjoner
 Her er helt grunnleggende metoder som create/get file info/open/delete
@@ -68,8 +70,36 @@ Komprimerer og dekomprimerer en fil.
 Diverse
 Diverse spesifikke metoder, som å hente en fil fra HTTP, eller opprette en midlertidig fil som blir slettet etter at dens funksjon er brukt opp.
 
-b)
+# b)
+
+![Bilde5](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18492924_10158500835360411_88144497_n.png?oh=23513638fa6de63268d540e56467ec69&oe=591CFDE2)
 
 bilde 5: Her ser vi at programmet klarte å skrive ut antall runer og antall linjer i tekstfilen. 
 
 Vi fikk ikke til å skrive ut de 5 mest brukte runene, men har skrevet ut antall runer. Vi brukte bufio.ScanLines og bufio.ScanRunes til å skrive antall runer og linjer i tekstfilen vi undersøkte.
+
+
+# Oppgave 4
+
+# a)
+
+Beregning: Studenter i ett fakultet / Totalt antall studenter *100% = Sannsynlighet.
+
+![Bilde6](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18515947_10158500835355411_1633395177_n.png?oh=fa2eef280bd3d5ad11337c032163a246&oe=591D1E4D)
+
+
+# b)
+
+Du får minst informasjon fra fakultet F (Økonomi og Samfunnsvitenskap) og D (Teknologi og realfag) ettersom deres fakultets-kode er henholdsvis 01 og 10 i motsetning til resten av fakultetene som har 3 bits kode.
+
+# c)
+
+![Bilde7](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18516066_10158500835365411_620334031_n.png?oh=c39b113b47659d4d7bbf00eb74d812b8&oe=591D2022)
+
+
+![Bilde8](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18515918_10158500835350411_2009112016_n.png?oh=bcb9eaccf049e1f92a358ed414f7c4b8&oe=591CE961)
+
+Summert sammen blir dette 255,1 bits for en gjennomsnittlig lenke som inneholder fakultets-koder for 100 tilfeldige elever.
+
+
+# e)
