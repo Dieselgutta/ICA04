@@ -73,7 +73,7 @@ Diverse spesifikke metoder, som å hente en fil fra HTTP, eller opprette en midl
 
 # b)
 
-![Bilde5](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18492924_10158500835360411_88144497_n.png?oh=23513638fa6de63268d540e56467ec69&oe=591CFDE2)
+![Bilde5](https://i.gyazo.com/db3d74f99c9c8082943a64b38eb39c5c.png)
 
 bilde 5: Her ser vi at programmet klarte å skrive ut antall runer og antall linjer i tekstfilen. 
 
