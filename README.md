@@ -41,14 +41,14 @@ For å komme fram til dette brukte vi Lstat og FileInfo fra “Os” i  Golang-b
 
 ![Bilde3](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18579247_10158500805710411_1171721428_n.png?oh=cde07d453b48522dba4598f58439c929&oe=591D76EE)
 
-** Bilde 3** (stdin). Vi endret filnavnet her til /dev/stdin i koden for å finne stdin i ubuntu. 
+** Bilde 3** (stdin). Vi skrev filnavnet her til /dev/stdin i kommandolinjen for å finne stdin i ubuntu. 
 
 
 ![Bilde4](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18554610_10158500805715411_2066292245_n.png?oh=b72c3ca9e68f3940fe92ab5aa6c410ad&oe=591D37AF)
 
 **Bilde 4** (loop0). da det ikke var mulig å bruke ram0 så ble loop0 brukt i stedet.. 
 
-Vi ser her at vi fikk veldig forskjellige resultater. Et av dem var at “loop0” er en block device file, mens “stdin” er en char device file. . 
+Vi ser her at vi fikk relativt like resultater med få forskejller. Et av dem var at “loop0” er en block device file, mens “stdin” er en char device file. . 
 
 
 # c)
