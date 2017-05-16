@@ -15,11 +15,11 @@ I windows brukes 0D 0A for å bryte linjen, mens Mac/Unix brukes kun 0A for å b
 
 ![Bilde1](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18518521_10158500805705411_1438605580_n.png?oh=5c6eb8280f2f5469352af141924ddb3b&oe=591E34A2)
 
-bilde 1: Vi ser at en tekstfil laget i Windows har Carriage return.
+**Bilde 1:** Vi ser at en tekstfil laget i Windows har Carriage return.
 
 ![Bilde2](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18450210_10158500813615411_1181054389_n.png?oh=59b8431860d00592346163630d5382eb&oe=591D62CF)
 
-bilde 2: Vi ser at en tekstfil laget i Mac ikke har Carriage return.
+**Bilde 2:** Vi ser at en tekstfil laget i Mac ikke har Carriage return.
 
 
 Vi skrev en kode som telte antall linjeskift, slik at vi skrev ut “Det er”, antall Carriage returns, “Carriage returns”. 
