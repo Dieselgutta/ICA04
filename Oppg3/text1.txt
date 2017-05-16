@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+    s := "Tester linjeskift.
+    Og en til ...
+    Og en til ...
+    Og en til ..."
+    var a [20]byte
+    copy(a[:], s)
+    fmt.Println("s:", []byte(s), "a:", a)
+}
