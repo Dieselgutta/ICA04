@@ -1,5 +1,6 @@
 # ICA04
 
+Link til pdf: https://fronter.com/uia/links/files.phtml/1530080210$980297832$/Innlevering_prcent_28G_prcent_29/Eksamen+-+mappeinnlevering+_prcent_28frist+fredag+19.+mai+2017+kl.+23_prcent_3A59_prcent_29/ICA-Mappe.pdf#page=29
 
 * Deltakere: Simen Fredriksen, Stian Blankenberg, Jone Manneråk, Kristian Hagberg, Tarjei Taxerås og Rasmus Sørby*
 
