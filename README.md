@@ -1,8 +1,9 @@
 # ICA04
 
 
-*Deltakere: Simen Fredriksen, Stian Blankenberg, Jone Manneråk, Kristian Hagberg, Tarjei Taxerås og Rasmus Sørby*
+* Deltakere: Simen Fredriksen, Stian Blankenberg, Jone Manneråk, Kristian Hagberg, Tarjei Taxerås og Rasmus Sørby*
 
+NB: Dersom bildene ikke fungerer kan de bli funnet i levert PDF-fil. 
 
 # Oppgave 1
 
