@@ -1,3 +1,6 @@
+// Koden er inspirert av
+//https://github.com/IS-105-GitGroup/IS-105-Gruppe1/blob/master/ICA04/src/oppgaver/oppgave3.go
+
 package main
 
 import (
@@ -86,9 +89,9 @@ func scanWords(fileInfo string, search string) int {
 
 }
 
-func checkRune(filename string, search string) int {
+func checkRune(fileInfo string, search string) int {
 	//Åpner filen
-	file, err := os.Open(filename)
+	file, err := os.Open(fileInfo)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -104,12 +107,12 @@ func checkRune(filename string, search string) int {
 	return counter
 }
 
-func check(filename string) map[int]string {
+func check(fileInfo string) map[int]string {
 	m := make(map[int]string)
 
 	// Runer for Ascii code valgt:
 	for i := 0x20; i <= 0x7F; i++ {
-		count := checkRune(filename, string(i))
+		count := checkRune(fileInfo, string(i))
 		rune := string(i)
 		m[count] = rune
 	}
